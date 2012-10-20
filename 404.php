@@ -14,7 +14,7 @@
 						
 							</header> <!-- end article header -->
 					
-							<section class="post-content">
+							<section class="entry-content">
 							
 								<p><?php _e("The article you were looking for was not found, but maybe try looking again!", "bonestheme"); ?></p>
 					
@@ -26,7 +26,7 @@
 				
 							</section> <!-- end search section -->
 						
-							<footer class="article-header">
+							<footer class="article-footer">
 							
 							    <p><?php _e("This is the 404.php template.", "bonestheme"); ?></p>
 							

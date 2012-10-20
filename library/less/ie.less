@@ -5,7 +5,7 @@ Author:
 Stylesheet: IE Stylesheet
 
 So instead of using the respond.js file to add media query support
-to IE, we're going to use LESS to create an easily readable css file.
+to IE, we're going to use SASS to create an easily readable css file.
 Here, we import all the styles the standard stylesheet gets, only
 without the media queries. No need to worry about editing anything!
 
@@ -19,11 +19,15 @@ import the mixins file so LESS can understand the variables.
 */
 
 /* import mixins */
-@import "mixins.less";
+@import "_mixins.less";
 
-@import "481up.less";
-@import "768up.less";
-@import "1030up.less";
+@import "_481up.less";
+
+/* import grid */
+@import "_grid.less";
+
+@import "_768up.less";
+@import "_1030up.less";
 
 /* 
 you can call the larger styles if you want, but there's really no need 
