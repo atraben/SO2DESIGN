@@ -25,6 +25,8 @@
 <script src="http://so2.ch/so2design/wp-content/themes/so2design/js/modernizr.js"></script>
 <script src="http://so2.ch/so2design/wp-content/themes/so2design/js/respond.js"></script>
 -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
 
 <link rel='next' title='Profile' href='http://so2design.ch/profile/' />
 
